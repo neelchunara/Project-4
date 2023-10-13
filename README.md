@@ -23,7 +23,7 @@ This data analysis has the potential to contribute to accident prevention effort
 
 
 
-## Tools Used
+### Tools Used
 * Python and Jupyter Notebook
 * Libraries: pandas, numpy, sklearn, keras, tensorflow, XGBoost
 * Flask
@@ -31,6 +31,8 @@ This data analysis has the potential to contribute to accident prevention effort
 * Javascript
 
 
+### Machine Learning Model
+* Neural Network
 
 
 
