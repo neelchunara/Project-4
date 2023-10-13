@@ -1,4 +1,4 @@
-# Project-4 - Project name ?
+# Project-4 - Car Crash Calculator
 
 ## Team
 - [Sean Allen](https://github.com/seanard1)
