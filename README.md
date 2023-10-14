@@ -17,12 +17,6 @@ We intend to utilize Motor Vehicle Collisions KSI (Killed or Seriously Injured) 
 This data analysis has the potential to contribute to accident prevention efforts by promoting safer driving behaviors in specific areas.
 
 
-### Project Framework
-
-
-
-
-
 ### Tools Used
 * Python and Jupyter Notebook
 * Libraries: pandas, numpy, sklearn, keras, tensorflow, XGBoost
