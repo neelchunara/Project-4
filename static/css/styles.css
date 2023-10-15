@@ -1,0 +1,53 @@
+.toggleButton {
+  width: 75px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 40px;
+}
+.toggleButtonSpeed {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+.toggleButtonAggressive {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+.toggleButtonAlcohol {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+.toggleButtonRedlight {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+.toggleButtonOver70 {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+.toggleButtonTeen {
+  background-color: rgb(190, 138, 250);
+  border-color: rgb(190, 138, 250);
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.max-width-100 {
+  max-width: 100%;
+}
+
+.max-height-300 {
+  max-height: 300px;
+}
+

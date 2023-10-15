@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Crash Calculator</title>
+    <link rel="stylesheet" href="../static/css/styles.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-4 title text-center">
+            <img src = "../static/images/Title.jpeg"
+            class="center img-fluid max-width-100 max-height-300">
+        </div>
+        <div class="col-md-4 title text-center">
+            <img src = "../static/images/Skull.png"
+            class="center clickable-image img-fluid max-width-100 max-height-300"
+            alt = "*"
+            id = "checkButton">
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+            <div class="text-center"><h1>Likelihood of fatality:</h1></div>
+            <div id="results" class="text-center" style="font-size: 5rem;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h4>Toggle and select the various features of a motor-vehicle collision below.</h4>
+            <h4>Our machine-learning model will calculate the percentage chance there will be a fatality under these conditions.</h4>
+        </div>
+    </div>
+    
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="speed">Feel'N Fast:</label> -->
+                <label for="speed">Speeding</label>
+                <button class="toggleButton toggleButtonSpeed"></button>
+            </div>
+        </div>
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="aggressive">In a Mood:</label> -->
+                <label for="aggressive">Aggressive Driving</label>
+                <button class="toggleButton toggleButtonAggressive"></button>
+            </div>
+        </div>
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="alcohol">Lil Tipsy:</label> -->
+                <label for="alcohol">Alcohol-related</label>
+                <button class="toggleButton toggleButtonAlcohol"></button>
+            </div>
+        </div>
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="redlight">Red's a Suggestion:</label> -->
+                <label for="redlight">Red light-related</label>
+                <button class="toggleButton toggleButtonRedlight"></button>
+            </div>
+        </div>
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="over70">Boomer:</label> -->
+                <label for="over70">Driver over age 70</label>
+                <button class="toggleButton toggleButtonOver70"></button>
+            </div>
+        </div>
+        <div class="col-md-2 text-center">
+            <div class="vertical-center">
+                <!-- <label for="teen">Zoomer:</label> -->
+                <label for="teen">Driver between 15 and 19</label>
+                <button class="toggleButton toggleButtonTeen"></button>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="vertical-center">
+                <label for="visibility">Visibility:</label>
+                <select id="visibility" class="form-control custom-select" style="width: 150px;">
+                    <option value="visibilityClear">Clear</option>
+                    <option value="visibilityRain">Rain</option>
+                    <option value="visibilitySnow">Snow</option>
+                    <option value="visibilityOther">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="vertical-center">
+                <label for="roadConditions">Road Conditions:</label>
+                <select id="roadConditions" class="form-control custom-select" style="width: 150px;">
+                    <option value="roadConditionsDry">Dry</option>
+                    <option value="roadConditionsWet">Wet</option>
+                    <option value="roadConditionsOther">Other</option>
+                    <option value="roadConditionsLooseSnow">Loose Snow</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="vertical-center">
+                <label for="impactType">Type of Crash:</label>
+                <select id="impactType" class="form-control custom-select" style="width: 150px;">
+                    <option value="impactTypePedestrian">Pedestrian</option>
+                    <option value="impactTypeOther">Other</option>
+                    <option value="impactTypeTurning">Turning</option>
+                    <option value="impactTypeCyclist">Cyclist</option>
+                    <option value="impactTypeRearEnd">Rear End</option>
+                    <option value="impactTypeSMV">Single-Motor Vehicle</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script src="https://d3js.org/d3.v7.min.js"></script> 
+    <script src="../static/js/script.js"></script> 
+</body>
+</html>
