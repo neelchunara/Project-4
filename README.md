@@ -1,6 +1,4 @@
-![image](https://github.com/neelchunara/Project-4/assets/126720049/c696bcd9-1ed2-46d2-9723-92c2bac65c98)
-
-
+![image](https://github.com/neelchunara/Project-4/assets/126720049/ac2b1df7-ff8d-491e-bce0-0de979ca08dc)
 
 
 # Project-4 - Car Crash Calculator
