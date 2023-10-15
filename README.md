@@ -23,6 +23,7 @@ This data analysis has the potential to contribute to accident prevention effort
 * Flask
 * HTML/CSS
 * Javascript
+* D3.js
 
 
 ### Machine Learning Model
