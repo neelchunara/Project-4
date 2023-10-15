@@ -22,6 +22,7 @@ This data analysis has the potential to contribute to accident prevention effort
 
 ### Tools Used
 * Python and Jupyter Notebook
+* Spark
 * Libraries: pandas, numpy, sklearn, keras, tensorflow, XGBoost
 * Flask
 * HTML/CSS
