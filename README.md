@@ -52,6 +52,10 @@ We then constructed a Flask application that loads the model and can return a pr
 
 The ability to do that was then built into a web dashboard that allows users to change the input variables and test the risk of a fatality for a collision under the circumstances that are selected. 
 
+## Instructions
+
+With dependecies installed as listed above, run app.py using python. Follow the link to the local host to access the dashboard. 
+
 ## Citations
 
 [Popper used for positioning on dashboard](https://popper.js.org/)
