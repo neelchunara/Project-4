@@ -22,7 +22,7 @@ This data analysis has the potential to contribute to accident prevention effort
 
 ### Tools Used
 * Python and Jupyter Notebook
-* Libraries: pandas, numpy, sklearn, keras, tensorflow, XGBoost
+* Libraries: Pandas, Numpy, Sklearn, Keras Tuner, TensorFlow, XGBoost
 * Flask
 * HTML/CSS
 * Javascript
@@ -32,6 +32,12 @@ This data analysis has the potential to contribute to accident prevention effort
 
 ### Machine Learning Model
 * Neural Network
+
+
+
+## Dashboard
+![image](https://github.com/neelchunara/Project-4/assets/126720049/47735393-9dfb-4f35-9bfc-40e1efadc7db)
+
 
 
 
