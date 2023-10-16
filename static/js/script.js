@@ -119,7 +119,19 @@ document.getElementById("checkButton").addEventListener("click", function() {
         // console.log((prediction["predictions"][0][0]*100).toFixed(2), "%");
         let predictionInsert = d3.select("#results").html("");
         predictionInsert.append("h1").text(`${(prediction["predictions"][0][0]*100).toFixed(2)}%`);
+
+        var overlay = document.getElementById('results');
+        if (prediction["predictions"][0][0]*100 >= 50) {
+            overlay.style.color = 'rgba(150, 40, 27)'; 
+        } else if (prediction["predictions"][0][0]*100 >= 25){
+            overlay.style.color = 'rgba(189, 155, 25)';
+        } else {
+            overlay.style.color = 'rgba(30, 130, 76)';
+        }
+
+
     });
 
 
 });
+
